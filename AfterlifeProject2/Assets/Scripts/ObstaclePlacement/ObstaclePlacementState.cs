@@ -33,6 +33,9 @@ public class ObstaclePlacementState : MonoBehaviour
         oceanScript = GetComponent<OceanPlacement>();
         skyScript = GetComponent<SkyPlacement>();
         caveScript = GetComponent<CavePlacement>();
+
+        skyScript.enabled = false;
+        caveScript.enabled = false;
     }
 
     /// <summary>
