@@ -1,0 +1,12 @@
+{
+    "timePlayed": 0.0,
+    "timeToFirstCollision": 0.0,
+    "distanceToObstacles": [],
+    "timeSpentInForm": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "averageAmountMoved": [],
+    "amountMoved": []
+}
