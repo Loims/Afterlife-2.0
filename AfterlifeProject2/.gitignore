@@ -4,7 +4,7 @@
 Assets/AssetStoreTools*
 Build/
 Library/
-Local[Cc]ache/
+LocalCache/
 Obj/
 Temp/
 UnityGenerated/
@@ -16,7 +16,7 @@ sysinfo.txt
 ###
 # VS/MD solution and project files
 ###
-[Ee]xportedObj/
+ExportedObj/
 *.booproj
 *.csproj
 *.sln
