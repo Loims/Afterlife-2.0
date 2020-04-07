@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AnimationTestScene.unity
     guid: b036c545c3efe5f4ab290a768548067e
   - enabled: 1
+    path: Assets/Scenes/Gameplay_Scene.unity
+    guid: 23ec60fb2952af1428325d7df89d32c9
+  - enabled: 1
     path: Assets/Scenes/LiamTestScene.unity
     guid: 9f62c55dd98307343951411271014dbc
   m_configObjects: {}
