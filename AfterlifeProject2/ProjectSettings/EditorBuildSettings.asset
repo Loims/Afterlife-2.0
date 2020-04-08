@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LiamTestScene.unity
     guid: 9f62c55dd98307343951411271014dbc
+  - enabled: 1
+    path: Assets/Scenes/EndGame_Scene.unity
+    guid: 214b8d2a105f0c447adca565f1b53097
   m_configObjects: {}
