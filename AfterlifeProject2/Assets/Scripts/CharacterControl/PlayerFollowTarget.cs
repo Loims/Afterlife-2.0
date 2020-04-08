@@ -269,12 +269,11 @@ public class PlayerFollowTarget : MonoBehaviour
         }
         else if(other.tag == "CaveObstacle")
         {
-            CollisionEvent(true);
-            gameManager.StopGameWithLoss();
+            gameManager.StartSceneChangeCoroutine(false);
         }
         else if(other.tag == "EndObstacle")
         {
-            gameManager.StopGameWithWin();
+            gameManager.StartSceneChangeCoroutine(true);
         }
     }
 }

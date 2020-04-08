@@ -5417,6 +5417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0
   speedMultiplier: 0
+  gameEnd: 0
 --- !u!1 &525220360
 GameObject:
   m_ObjectHideFlags: 0
@@ -11152,7 +11153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &1323698296
 GameObject:
@@ -11759,7 +11760,7 @@ PrefabInstance:
     - target: {fileID: 127178530459970130, guid: 58f929e5ccce34915aed669c5f26dc1d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 127178530459970130, guid: 58f929e5ccce34915aed669c5f26dc1d,
         type: 3}
@@ -11945,7 +11946,7 @@ PrefabInstance:
     - target: {fileID: 3901956754627501676, guid: ff7bb23f185c34c3582432417ace3b27,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3901956754627501676, guid: ff7bb23f185c34c3582432417ace3b27,
         type: 3}
