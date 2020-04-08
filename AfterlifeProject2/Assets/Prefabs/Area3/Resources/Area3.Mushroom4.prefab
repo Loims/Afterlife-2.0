@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6613913590295225415}
   m_Layer: 0
-  m_Name: Area3.Mushroom1
+  m_Name: Area3.Mushroom4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,17 +53,17 @@ PrefabInstance:
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -157.51
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 72.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
@@ -143,17 +143,17 @@ PrefabInstance:
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -157.21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 72.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3142132000192161401, guid: 759668c1a26794c0cb07bf66763850be,
         type: 3}

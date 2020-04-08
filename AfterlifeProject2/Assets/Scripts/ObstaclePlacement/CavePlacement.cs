@@ -26,6 +26,7 @@ public class CavePlacement : MonoBehaviour
     [SerializeField] private GameObject cliff2;
     [SerializeField] private GameObject cliff3;
     [SerializeField] private GameObject cliff4;
+
     [SerializeField] private GameObject mushroom1;
     [SerializeField] private GameObject mushroom2;
     [SerializeField] private GameObject mushroom3;
@@ -167,15 +168,17 @@ public class CavePlacement : MonoBehaviour
 
         SpawnAtRandomGroundSpot(cliffVariant);
     }
-
+    /// <summary>
+    /// ///////////////////////////////
+    /// </summary>
     private void SpawnStalactitePrefab()
     {
         GameObject cliffVariant;
-        int cliffVariantInt = Random.Range(0, 4);
+        int cliffVariantInt = Random.Range(0, 7);
 
         while (cliffVariantInt == recentVariant)
         {
-            cliffVariantInt = Random.Range(0, 4);
+            cliffVariantInt = Random.Range(0, 7);
         }
         recentVariant = cliffVariantInt;
 
@@ -197,6 +200,18 @@ public class CavePlacement : MonoBehaviour
                 cliffVariant = cliff4;
                 break;
 
+            case 4:
+                cliffVariant = mushroom1;
+                break;
+
+            case 5:
+                cliffVariant = mushroom2;
+                break;
+
+            case 6:
+                cliffVariant = mushroom3;
+                break;
+
             default:
                 cliffVariant = cliff1;
                 break;
@@ -207,7 +222,8 @@ public class CavePlacement : MonoBehaviour
 
     private void SpawnAtRandomGroundSpot(GameObject cliffObj)
     {
-        if (cliffObj != cliff3)
+        // Ground Rock Spawning
+        if (cliffObj == cliff1 || cliffObj == cliff2 || cliffObj == cliff3 || cliffObj == cliff4)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + Random.Range(100f, 120f));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
@@ -218,10 +234,11 @@ public class CavePlacement : MonoBehaviour
                 obstacleList.Add(newObj);
             }
         }
-        else
+        // Ground Mushroom Spawning
+        else if (cliffObj == mushroom1 || cliffObj == mushroom2 || cliffObj == mushroom3)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + Random.Range(111f, 120f));
-            Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
+            Vector3 spawnPos = new Vector3(Random.Range(-0f, 0f), 0f, planeTransform.position.z + Random.Range(0f, 0f));
+            Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
             if (!obstacleList.Contains(newObj))
@@ -229,10 +246,24 @@ public class CavePlacement : MonoBehaviour
                 obstacleList.Add(newObj);
             }
         }
+        /*
+        else
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + Random.Range(111f, 120f));
+            Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
+            GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
+            newObj.transform.parent = caveParent.transform;
+            if (!obstacleList.Contains(newObj))
+            {
+                obstacleList.Add(newObj);
+            }
+        }
+        */
     }
 
     private void SpawnAtRandomCeilingSpot(GameObject cliffObj)
-    {
+    {/*
+        // Rock Spawning
         if (cliffObj != cliff3)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 110f));
@@ -254,7 +285,9 @@ public class CavePlacement : MonoBehaviour
             {
                 obstacleList.Add(newObj);
             }
+            
         }
+        */
     }
 
     public void ClearObjects()
