@@ -318,7 +318,7 @@ public class SkyPlacement : MonoBehaviour
             }
         }
 
-        else if (obj == hotAirBalloon1 || obj == hotAirBalloon2 || obj == hotAirBalloon3 || obj == cloud1 || obj == cloud2 || obj == cloud3)
+        else if (obj == hotAirBalloon1 || obj == hotAirBalloon2 || obj == hotAirBalloon3 || obj == cloud1 || obj == cloud2 || obj == cloud3 || obj == cloud4 || obj == cloud5 || obj == cloud6 || obj == cloud7 || obj == cloud8 || obj == kite)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), Random.Range(-10f, 3.5f), planeTransform.position.z + (100f + (20 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(0, 0, 0);

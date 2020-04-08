@@ -5046,7 +5046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &217423981
 Light:
   m_ObjectHideFlags: 0
@@ -5229,7 +5229,7 @@ Transform:
   - {fileID: 1578235728}
   - {fileID: 907990329}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &343255161
 MonoBehaviour:
@@ -10841,7 +10841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1283389382
 Light:
   m_ObjectHideFlags: 0
@@ -11137,6 +11137,25 @@ MonoBehaviour:
   mushroom1: {fileID: 0}
   mushroom2: {fileID: 0}
   mushroom3: {fileID: 0}
+  rock1: {fileID: 0}
+  rock2: {fileID: 0}
+  rock3: {fileID: 0}
+  rock4: {fileID: 0}
+  rock5: {fileID: 0}
+  rock6: {fileID: 0}
+  rock7: {fileID: 0}
+  rock8: {fileID: 0}
+  stalagmite1: {fileID: 0}
+  stalagmite2: {fileID: 0}
+  stalagmite3: {fileID: 0}
+  stalagmite4: {fileID: 0}
+  topRock1: {fileID: 0}
+  topRock2: {fileID: 0}
+  topRock3: {fileID: 0}
+  topRock4: {fileID: 0}
+  stalactite1: {fileID: 0}
+  stalactite2: {fileID: 0}
+  stalactite3: {fileID: 0}
   floorIncrement: 0
 --- !u!114 &1578235730
 MonoBehaviour:
@@ -20831,7 +20850,7 @@ PrefabInstance:
     - target: {fileID: 4204725267686486427, guid: 7fb15999327f37d4bb93e5de179869e2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4204725267686486427, guid: 7fb15999327f37d4bb93e5de179869e2,
         type: 3}
@@ -27061,7 +27080,7 @@ Transform:
   - {fileID: 7228698976438573579}
   - {fileID: 6501327631434203924}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6972520401538198215
 MeshFilter:

@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 880089768752951563}
   - component: {fileID: 5032409040630399219}
   m_Layer: 8
-  m_Name: Area3.Cliff8
+  m_Name: Area3.Rock3
   m_TagString: CaveObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444075447304029655}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -100.97, y: 60.1, z: 46.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 124.53999, y: 124.53999, z: 124.53999}
   m_Children:
   - {fileID: 3382190817650313822}

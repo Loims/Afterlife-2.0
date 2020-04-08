@@ -31,6 +31,28 @@ public class CavePlacement : MonoBehaviour
     [SerializeField] private GameObject mushroom2;
     [SerializeField] private GameObject mushroom3;
 
+    [SerializeField] private GameObject rock1;
+    [SerializeField] private GameObject rock2;
+    [SerializeField] private GameObject rock3;
+    [SerializeField] private GameObject rock4;
+    [SerializeField] private GameObject rock5;
+    [SerializeField] private GameObject rock6;
+    [SerializeField] private GameObject rock7;
+    [SerializeField] private GameObject rock8;
+
+    [SerializeField] private GameObject stalagmite1;
+    [SerializeField] private GameObject stalagmite2;
+    [SerializeField] private GameObject stalagmite3;
+    [SerializeField] private GameObject stalagmite4;
+
+    [SerializeField] private GameObject topRock1;
+    [SerializeField] private GameObject topRock2;
+    [SerializeField] private GameObject topRock3;
+    [SerializeField] private GameObject topRock4;
+
+    [SerializeField] private GameObject stalactite1;
+    [SerializeField] private GameObject stalactite2;
+    [SerializeField] private GameObject stalactite3;
 
 
     [SerializeField] private int floorIncrement = 0;
@@ -94,6 +116,29 @@ public class CavePlacement : MonoBehaviour
         mushroom2 = Resources.Load<GameObject>("Area3.Mushroom2");
         mushroom3 = Resources.Load<GameObject>("Area3.Mushroom3");
 
+        rock1 = Resources.Load<GameObject>("Area3.Rock1");
+        rock2 = Resources.Load<GameObject>("Area3.Rock2");
+        rock3 = Resources.Load<GameObject>("Area3.Rock3");
+        rock4 = Resources.Load<GameObject>("Area3.Rock4");
+        rock5 = Resources.Load<GameObject>("Area3.Rock5");
+        rock6 = Resources.Load<GameObject>("Area3.Rock6");
+        rock7 = Resources.Load<GameObject>("Area3.Rock7");
+        rock8 = Resources.Load<GameObject>("Area3.Rock8");
+
+        stalagmite1 = Resources.Load<GameObject>("Area3.Stalagmite1");
+        stalagmite2 = Resources.Load<GameObject>("Area3.Stalagmite2");
+        stalagmite3 = Resources.Load<GameObject>("Area3.Stalagmite3");
+        stalagmite4 = Resources.Load<GameObject>("Area3.Stalagmite4");
+
+        topRock1 = Resources.Load<GameObject>("Area3.Top.Rock1");
+        topRock2 = Resources.Load<GameObject>("Area3.Top.Rock2");
+        topRock3 = Resources.Load<GameObject>("Area3.Top.Rock3");
+        topRock4 = Resources.Load<GameObject>("Area3.Top.Rock4");
+
+        stalactite1 = Resources.Load<GameObject>("Area3.stalactite1");
+        stalactite2 = Resources.Load<GameObject>("Area3.stalactite2");
+        stalactite3 = Resources.Load<GameObject>("Area3.stalactite3");
+
     }
 
     private void MoveFloorTile(GameObject obj)
@@ -123,11 +168,11 @@ public class CavePlacement : MonoBehaviour
     private void SpawnStalagmitePrefab()
     {
         GameObject cliffVariant;
-        int cliffVariantInt = Random.Range(0, 7);
+        int cliffVariantInt = Random.Range(0, 18);
 
         while (cliffVariantInt == recentVariant)
         {
-            cliffVariantInt = Random.Range(0, 7);
+            cliffVariantInt = Random.Range(0, 18);
         }
         recentVariant = cliffVariantInt;
 
@@ -159,6 +204,54 @@ public class CavePlacement : MonoBehaviour
 
             case 6:
                 cliffVariant = mushroom3;
+                break;
+
+            case 7:
+                cliffVariant = rock1;
+                break;
+
+            case 8:
+                cliffVariant = rock2;
+                break;
+
+            case 9:
+                cliffVariant = rock3;
+                break;
+
+            case 10:
+                cliffVariant = rock4;
+                break;
+
+            case 11:
+                cliffVariant = rock5;
+                break;
+
+            case 12:
+                cliffVariant = rock6;
+                break;
+
+            case 13:
+                cliffVariant = rock7;
+                break;
+
+            case 14:
+                cliffVariant = rock8;
+                break;
+
+            case 15:
+                cliffVariant = stalagmite1;
+                break;
+
+            case 16:
+                cliffVariant = stalagmite2;
+                break;
+
+            case 17:
+                cliffVariant = stalagmite3;
+                break;
+
+            case 18:
+                cliffVariant = stalagmite4;
                 break;
 
             default:
@@ -168,17 +261,15 @@ public class CavePlacement : MonoBehaviour
 
         SpawnAtRandomGroundSpot(cliffVariant);
     }
-    /// <summary>
-    /// ///////////////////////////////
-    /// </summary>
+
     private void SpawnStalactitePrefab()
     {
         GameObject cliffVariant;
-        int cliffVariantInt = Random.Range(0, 7);
+        int cliffVariantInt = Random.Range(0, 11);
 
         while (cliffVariantInt == recentVariant)
         {
-            cliffVariantInt = Random.Range(0, 7);
+            cliffVariantInt = Random.Range(0, 11);
         }
         recentVariant = cliffVariantInt;
 
@@ -201,15 +292,31 @@ public class CavePlacement : MonoBehaviour
                 break;
 
             case 4:
-                cliffVariant = mushroom1;
+                cliffVariant = topRock1;
                 break;
 
             case 5:
-                cliffVariant = mushroom2;
+                cliffVariant = topRock2;
                 break;
 
             case 6:
-                cliffVariant = mushroom3;
+                cliffVariant = topRock3;
+                break;
+
+            case 7:
+                cliffVariant = topRock4;
+                break;
+
+            case 8:
+                cliffVariant = stalactite1;
+                break;
+
+            case 9:
+                cliffVariant = stalactite2;
+                break;
+
+            case 10:
+                cliffVariant = stalactite3;
                 break;
 
             default:
@@ -223,7 +330,7 @@ public class CavePlacement : MonoBehaviour
     private void SpawnAtRandomGroundSpot(GameObject cliffObj)
     {
         // Ground Rock Spawning
-        if (cliffObj == cliff1 || cliffObj == cliff2 || cliffObj == cliff3 || cliffObj == cliff4)
+        if (cliffObj == cliff1 || cliffObj == cliff2 || cliffObj == cliff3 || cliffObj == cliff4 || cliffObj == rock1 || cliffObj == rock2 || cliffObj == rock3)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + Random.Range(100f, 120f));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
@@ -235,9 +342,9 @@ public class CavePlacement : MonoBehaviour
             }
         }
         // Ground Mushroom Spawning
-        else if (cliffObj == mushroom1 || cliffObj == mushroom2 || cliffObj == mushroom3)
+        else if (cliffObj == mushroom1 || cliffObj == mushroom2 || cliffObj == mushroom3 || cliffObj == rock4 || cliffObj == rock5 || cliffObj == rock6 || cliffObj == rock7 || cliffObj == rock8)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-0f, 0f), 0f, planeTransform.position.z + Random.Range(0f, 0f));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8, planeTransform.position.z + Random.Range(111f, 120f));
             Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
@@ -246,7 +353,31 @@ public class CavePlacement : MonoBehaviour
                 obstacleList.Add(newObj);
             }
         }
-        /*
+
+        // Stalagmites Spawning
+        else if (cliffObj == stalagmite1 || cliffObj == stalagmite2)
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8, planeTransform.position.z + Random.Range(111f, 120f));
+            Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
+            GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
+            newObj.transform.parent = caveParent.transform;
+            if (!obstacleList.Contains(newObj))
+            {
+                obstacleList.Add(newObj);
+            }
+        }
+        else if (cliffObj == stalagmite3 || cliffObj == stalagmite4)
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8, planeTransform.position.z + Random.Range(111f, 120f));
+            Quaternion spawnRot = Quaternion.Euler(90, 0, 0);
+            GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
+            newObj.transform.parent = caveParent.transform;
+            if (!obstacleList.Contains(newObj))
+            {
+                obstacleList.Add(newObj);
+            }
+        }
+
         else
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + Random.Range(111f, 120f));
@@ -258,16 +389,16 @@ public class CavePlacement : MonoBehaviour
                 obstacleList.Add(newObj);
             }
         }
-        */
+        
     }
 
     private void SpawnAtRandomCeilingSpot(GameObject cliffObj)
-    {/*
-        // Rock Spawning
-        if (cliffObj != cliff3)
+    {
+        // stalactites Spawning
+        if (cliffObj == stalactite1 || cliffObj == stalactite2 || cliffObj == stalactite3)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 110f));
-            Quaternion spawnRot = Quaternion.Euler(90, 0, 0);
+            Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
             if (!obstacleList.Contains(newObj))
@@ -275,6 +406,19 @@ public class CavePlacement : MonoBehaviour
                 obstacleList.Add(newObj);
             }
         }
+        // roof rock Spawning
+        else if (cliffObj == topRock1 || cliffObj == topRock2 || cliffObj == topRock3 || cliffObj == topRock4)
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 110f));
+            Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
+            GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
+            newObj.transform.parent = caveParent.transform;
+            if (!obstacleList.Contains(newObj))
+            {
+                obstacleList.Add(newObj);
+            }
+        }
+        /*
         else
         {
             Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 124f));
