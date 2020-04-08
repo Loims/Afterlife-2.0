@@ -26,6 +26,10 @@ public class CavePlacement : MonoBehaviour
     [SerializeField] private GameObject cliff2;
     [SerializeField] private GameObject cliff3;
     [SerializeField] private GameObject cliff4;
+    [SerializeField] private GameObject mushroom1;
+    [SerializeField] private GameObject mushroom2;
+    [SerializeField] private GameObject mushroom3;
+
 
 
     [SerializeField] private int floorIncrement = 0;
@@ -84,6 +88,11 @@ public class CavePlacement : MonoBehaviour
         cliff2 = Resources.Load<GameObject>("Area3.Cliff3");
         cliff3 = Resources.Load<GameObject>("Area3.Cliff4");
         cliff4 = Resources.Load<GameObject>("Area3.Cliff8");
+
+        mushroom1 = Resources.Load<GameObject>("Area3.Mushroom1");
+        mushroom2 = Resources.Load<GameObject>("Area3.Mushroom2");
+        mushroom3 = Resources.Load<GameObject>("Area3.Mushroom3");
+
     }
 
     private void MoveFloorTile(GameObject obj)
@@ -113,11 +122,11 @@ public class CavePlacement : MonoBehaviour
     private void SpawnStalagmitePrefab()
     {
         GameObject cliffVariant;
-        int cliffVariantInt = Random.Range(0, 4);
+        int cliffVariantInt = Random.Range(0, 7);
 
         while (cliffVariantInt == recentVariant)
         {
-            cliffVariantInt = Random.Range(0, 4);
+            cliffVariantInt = Random.Range(0, 7);
         }
         recentVariant = cliffVariantInt;
 
@@ -137,6 +146,18 @@ public class CavePlacement : MonoBehaviour
 
             case 3:
                 cliffVariant = cliff4;
+                break;
+
+            case 4:
+                cliffVariant = mushroom1;
+                break;
+
+            case 5:
+                cliffVariant = mushroom2;
+                break;
+
+            case 6:
+                cliffVariant = mushroom3;
                 break;
 
             default:
@@ -188,7 +209,7 @@ public class CavePlacement : MonoBehaviour
     {
         if (cliffObj != cliff3)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + Random.Range(900f, 1000f));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + Random.Range(100f, 120f));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
@@ -199,7 +220,7 @@ public class CavePlacement : MonoBehaviour
         }
         else
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + Random.Range(900f, 1000f));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + Random.Range(111f, 120f));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
@@ -214,7 +235,7 @@ public class CavePlacement : MonoBehaviour
     {
         if (cliffObj != cliff3)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(900f, 1000f));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 110f));
             Quaternion spawnRot = Quaternion.Euler(90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;
@@ -225,7 +246,7 @@ public class CavePlacement : MonoBehaviour
         }
         else
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(867f, 1024f));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 8f, planeTransform.position.z + Random.Range(100f, 124f));
             Quaternion spawnRot = Quaternion.Euler(90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = caveParent.transform;

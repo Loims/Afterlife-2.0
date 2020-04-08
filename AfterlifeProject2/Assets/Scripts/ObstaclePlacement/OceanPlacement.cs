@@ -203,7 +203,7 @@ public class OceanPlacement : MonoBehaviour
     {
         if (cliffObj != cliff3)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + (100f + (10 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), -8f, planeTransform.position.z + (124f + (10 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = oceanParent.transform;
@@ -214,7 +214,7 @@ public class OceanPlacement : MonoBehaviour
         }
         else
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + (100f + (10 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-15f, 15f), 0.94f, planeTransform.position.z + (124f + (10 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(cliffObj, spawnPos, spawnRot);
             newObj.transform.parent = oceanParent.transform;

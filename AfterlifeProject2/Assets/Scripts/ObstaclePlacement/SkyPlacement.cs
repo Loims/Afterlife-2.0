@@ -205,11 +205,11 @@ public class SkyPlacement : MonoBehaviour
     private void DetermineObstacle()
     {
         GameObject objVariant;
-        int objVariantInt = Random.Range(0, 6);
+        int objVariantInt = Random.Range(0, 13);
 
         while (objVariantInt == recentObjVariant)
         {
-            objVariantInt = Random.Range(0, 6);
+            objVariantInt = Random.Range(0, 13);
         }
         recentObjVariant = objVariantInt;
 
@@ -239,6 +239,38 @@ public class SkyPlacement : MonoBehaviour
                 objVariant = kite;
                 break;
 
+            case 6:
+                objVariant = cloud2;
+                break;
+
+            case 7:
+                objVariant = cloud3;
+                break;
+
+            case 8:
+                objVariant = cloud4;
+                break;
+
+            case 9:
+                objVariant = cloud5;
+                break;
+
+            case 10:
+                objVariant = cloud6;
+                break;
+
+            case 11:
+                objVariant = cloud7;
+                break;
+
+            case 12:
+                objVariant = cloud8;
+                break;
+
+            case 13:
+                objVariant = cloud1;
+                break;
+
             default:
                 objVariant = hotAirBalloon1;
                 break;
@@ -265,7 +297,7 @@ public class SkyPlacement : MonoBehaviour
     {
         if (obj == mountain1 || obj == mountain2)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -25.8f, planeTransform.position.z + (100f + (20 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -25.8f, planeTransform.position.z + (200f + (20 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(obj, spawnPos, spawnRot);
             newObj.transform.parent = skyParent.transform;
@@ -277,7 +309,7 @@ public class SkyPlacement : MonoBehaviour
 
         else if(obj == mountain3 || obj == mountain4 || obj == mountain5)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -25.8f, planeTransform.position.z + (100f + (20 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -25.8f, planeTransform.position.z + (200f + (20 * planeComp.speedMultiplier)));
             GameObject newObj = pooler.NewObject(obj, spawnPos, Quaternion.identity);
             newObj.transform.parent = skyParent.transform;
             if (!obstacleList.Contains(newObj))
@@ -300,7 +332,7 @@ public class SkyPlacement : MonoBehaviour
 
         else if(obj == pillar1)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -18.28f, planeTransform.position.z + (100f + (20 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -18.28f, planeTransform.position.z + (200f + (20 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(-90, 0, 0);
             GameObject newObj = pooler.NewObject(obj, spawnPos, spawnRot);
             newObj.transform.parent = skyParent.transform;
@@ -312,7 +344,7 @@ public class SkyPlacement : MonoBehaviour
 
         else if(obj == pillar2)
         {
-            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -18.28f, planeTransform.position.z + (100f + (20 * planeComp.speedMultiplier)));
+            Vector3 spawnPos = new Vector3(Random.Range(-17f, 17f), -18.28f, planeTransform.position.z + (200f + (20 * planeComp.speedMultiplier)));
             Quaternion spawnRot = Quaternion.Euler(0, -90, 90);
             GameObject newObj = pooler.NewObject(obj, spawnPos, spawnRot);
             newObj.transform.parent = skyParent.transform;
