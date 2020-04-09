@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour
 
     public void ProgressForm() //Progresses the players form. Called when the player makes it through a stage without colliding
     {
-        Debug.Log("THIS IS CALLED");
+        //Debug.Log("THIS IS CALLED");
         MoveProgressionObstacle();
         planeComp.ResetPlane();
         movementComp.ChangeStateData();

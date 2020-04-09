@@ -19,6 +19,14 @@ public class PlayerFollowTarget : MonoBehaviour
     [SerializeField] private GameObject planeVisual;
     [SerializeField] private GameObject flareVisual;
 
+    public GameObject directionalLightOcean;
+    public GameObject directionalLightSky;
+    public GameObject directionalLightCave;
+
+    public GameObject endLightOcean;
+    public GameObject endLightSky;
+    public GameObject endLightCave;
+
     private PlayerMovement.State playerState;
 
     private float smoothSpeed;
@@ -152,18 +160,42 @@ public class PlayerFollowTarget : MonoBehaviour
                 whaleVisual.SetActive(true);
                 planeVisual.SetActive(false);
                 flareVisual.SetActive(false);
+
+                directionalLightOcean.SetActive(true);
+                directionalLightSky.SetActive(false);
+                directionalLightCave.SetActive(false);
+
+                endLightOcean.SetActive(true);
+                endLightSky.SetActive(false);
+                endLightCave.SetActive(false);
                 break;
 
             case PlayerMovement.State.PLANE:
                 whaleVisual.SetActive(false);
                 planeVisual.SetActive(true);
                 flareVisual.SetActive(false);
+
+                directionalLightOcean.SetActive(false);
+                directionalLightSky.SetActive(true);
+                directionalLightCave.SetActive(false);
+
+                endLightOcean.SetActive(false);
+                endLightSky.SetActive(true);
+                endLightCave.SetActive(false);
                 break;
 
             case PlayerMovement.State.FLARE:
                 whaleVisual.SetActive(false);
                 planeVisual.SetActive(false);
                 flareVisual.SetActive(true);
+
+                directionalLightOcean.SetActive(false);
+                directionalLightSky.SetActive(false);
+                directionalLightCave.SetActive(true);
+
+                endLightOcean.SetActive(false);
+                endLightSky.SetActive(false);
+                endLightCave.SetActive(true);
                 break;
         }
     }
