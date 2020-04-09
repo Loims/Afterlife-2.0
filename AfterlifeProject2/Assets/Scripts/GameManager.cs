@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,8 +10,13 @@ public class GameManager : MonoBehaviour
 
     private GameObject gamePlane;
     private GameObject progressObstacle;
+    private GameObject endObstacle;
 
     private GameObject progressObstacleInstance;
+    private GameObject endObstacleInstance;
+
+    [SerializeField] private GameObject whiteFade;
+    [SerializeField] private Color whiteFadeColor;
 
     [SerializeField] private PlaneMovement planeComp;
     [SerializeField] private PlayerMovement movementComp;
@@ -18,6 +25,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlayerFollowTarget followComp;
 
     public bool hitProgression = false;
+
+    private bool whiteFadeStart;
 
     private void OnEnable()
     {
@@ -39,6 +48,12 @@ public class GameManager : MonoBehaviour
         followComp = gamePlane.GetComponentInChildren<PlayerFollowTarget>();
 
         progressObstacle = Resources.Load<GameObject>("ProgressionObstacle");
+        endObstacle = Resources.Load<GameObject>("CompletionObstacle");
+
+        whiteFade = GameObject.Find("WhiteFade");
+        whiteFadeColor = whiteFade.GetComponentInChildren<Image>().color;
+
+        whiteFadeColor.a = 0f;
     }
 
     private void Update()
@@ -54,6 +69,11 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+
+        if(whiteFadeStart)
+        {
+            FadeInWhite();
+        }
     }
 
     public void SpawnProgressObstacle()
@@ -61,6 +81,10 @@ public class GameManager : MonoBehaviour
         if (movementComp.playerState != PlayerMovement.State.FLARE)
         {
             progressObstacleInstance = Instantiate(progressObstacle, new Vector3(planeComp.transform.position.x, planeComp.transform.position.y, planeComp.transform.position.z + 150f), Quaternion.identity);
+        }
+        else
+        {
+            endObstacleInstance = Instantiate(endObstacle, new Vector3(planeComp.transform.position.x, planeComp.transform.position.y, planeComp.transform.position.z + 150f), Quaternion.identity);
         }
     }
 
@@ -97,21 +121,35 @@ public class GameManager : MonoBehaviour
         hitProgression = true;
     }
 
-    /// <summary>
-    /// Temp method. Ends the game with a loss
-    /// </summary>
-    public void StopGameWithLoss()
+    public void StartSceneChangeCoroutine(bool win)
     {
-        Debug.Log("YOU LOSE");
-        Time.timeScale = 0f;
+        if(win)
+        {
+            StartCoroutine(GameWin(3f));
+        }
+        else
+        {
+            StartCoroutine(GameLoss(3f));
+        }
     }
 
-    /// <summary>
-    /// Temp method. Ends the game with a win
-    /// </summary>
-    public void StopGameWithWin()
+    private void FadeInWhite()
     {
-        Debug.Log("YOU WIN");
-        Time.timeScale = 0f;
+        whiteFadeColor.a += Time.deltaTime / 3f;
+        whiteFade.GetComponentInChildren<Image>().color = whiteFadeColor;
+    }
+
+    private IEnumerator GameWin(float waitTime)
+    {
+        whiteFadeStart = true;
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene(3);
+    }
+
+    private IEnumerator GameLoss(float waitTime)
+    {
+        //Put explosion particle here
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene(3);
     }
 }

@@ -11,6 +11,8 @@ public class PlaneMovement : MonoBehaviour
 
     public float speedMultiplier;
 
+    public bool gameEnd = false;
+
     private void OnEnable()
     {
         movementComp = GetComponentInChildren<PlayerMovement>();
@@ -38,7 +40,14 @@ public class PlaneMovement : MonoBehaviour
         }
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 
-        speedMultiplier = IncreaseMultiplier(formTimer, moveSpeed);
+        if (!gameEnd)
+        {
+            speedMultiplier = IncreaseMultiplier(formTimer, moveSpeed);
+        }
+        else
+        {
+            speedMultiplier = 0f;
+        }
     }
 
 
