@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -20198,7 +20198,7 @@ PrefabInstance:
     - target: {fileID: 3889873847586234662, guid: c3d78daddf4456442a965da9d67fc843,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3889873847586234663, guid: c3d78daddf4456442a965da9d67fc843,
         type: 3}
@@ -20255,15 +20255,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7294349179769632970, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294349179769632970, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294349179769632970, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294349179769632970, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.34
+      objectReference: {fileID: 0}
     - target: {fileID: 7294349179769633591, guid: c3d78daddf4456442a965da9d67fc843,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8430555385439851521, guid: c3d78daddf4456442a965da9d67fc843,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430555385439851534, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430555385439851534, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430555385439851534, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430555385439851534, guid: c3d78daddf4456442a965da9d67fc843,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3399997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d78daddf4456442a965da9d67fc843, type: 3}
