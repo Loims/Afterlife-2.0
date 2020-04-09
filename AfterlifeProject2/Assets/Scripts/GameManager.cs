@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ProgressForm()
+    public void ProgressForm() //Progresses the players form. Called when the player makes it through a stage without colliding
     {
         Debug.Log("THIS IS CALLED");
         MoveProgressionObstacle();
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
         followComp.ResetBools();
     }
 
-    public void ProgressFormWithCollision()
+    public void ProgressFormWithCollision() //Progresses the players form. Called when the player collides with an obstacle
     {
         if(progressObstacleInstance != null)
         {
