@@ -89,9 +89,19 @@ public class SkyPlacement : MonoBehaviour
     {
         foreach (GameObject obj in obstacleList)
         {
-            if (obj.transform.position.z <= planeTransform.position.z - 2f)
+            if (obj.tag != "Cloud")
             {
-                ReturnObjToPool(obj);
+                if (obj.transform.position.z <= planeTransform.position.z - 2f)
+                {
+                    ReturnObjToPool(obj);
+                }
+            }
+            else
+            {
+                if (obj.transform.position.z <= planeTransform.position.z - 15f)
+                {
+                    ReturnObjToPool(obj);
+                }
             }
         }
 

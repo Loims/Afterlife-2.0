@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 7878188491457766763}
   m_Layer: 0
   m_Name: Area2.Cloud5
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
