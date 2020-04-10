@@ -125,17 +125,17 @@ public class GameManager : MonoBehaviour
     {
         if(win)
         {
-            StartCoroutine(GameWin(3f));
+            StartCoroutine(GameWin(0.25f));
         }
         else
         {
-            StartCoroutine(GameLoss(3f));
+            StartCoroutine(GameLoss(0.25f));
         }
     }
 
     private void FadeInWhite()
     {
-        whiteFadeColor.a += Time.deltaTime / 3f;
+        whiteFadeColor.a += Time.deltaTime / 0.25f;
         whiteFade.GetComponentInChildren<Image>().color = whiteFadeColor;
     }
 
