@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{602D0185-7D2D-1735-7CF4-923E381E1515}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI scripts/SceneLoader.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI scripts/SceneLoader.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8afd7f17-b1c2-4782-8cff-1d28a8bf4ddd" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
