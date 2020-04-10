@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &521584009897275427
 Transform:
@@ -98,7 +98,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2251372383449644711
 Transform:
@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (49)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &5027815442111961650 stripped
@@ -297,6 +302,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -393,6 +403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (52)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4656049377689014824 stripped
@@ -487,6 +502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -583,6 +603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918042484652 stripped
@@ -677,6 +702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -773,6 +803,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918075936714 stripped
@@ -868,6 +903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918165847249 stripped
@@ -962,6 +1002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -1063,6 +1108,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 61d2dd3a8e5dc4b329beb5b4f98b8c79,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61d2dd3a8e5dc4b329beb5b4f98b8c79, type: 3}
 --- !u!4 &4775993918225738409 stripped
@@ -1157,6 +1207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -1253,6 +1308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918430844156 stripped
@@ -1347,6 +1407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -1443,6 +1508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918487509853 stripped
@@ -1537,6 +1607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -1633,6 +1708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993918727870950 stripped
@@ -1727,6 +1807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -1823,6 +1908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993919526817756 stripped
@@ -1917,6 +2007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2013,6 +2108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993919631981751 stripped
@@ -2107,6 +2207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2203,6 +2308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993919669084546 stripped
@@ -2297,6 +2407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2393,6 +2508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &4775993919823688690 stripped
@@ -2487,6 +2607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2583,6 +2708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (25)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &6333153341237682824 stripped
@@ -2677,6 +2807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2773,6 +2908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (34)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &5942024266599596688 stripped
@@ -2867,6 +3007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -2963,6 +3108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (48)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &6908946030309582427 stripped
@@ -3057,6 +3207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -3153,6 +3308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (23)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &6396594795982300704 stripped
@@ -3247,6 +3407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -3343,6 +3508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (33)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &6495870855590384489 stripped
@@ -3437,6 +3607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -3533,6 +3708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (47)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &7361259774377439465 stripped
@@ -3627,6 +3807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -3723,6 +3908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (32)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &7597891309015403160 stripped
@@ -3817,6 +4007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -3913,6 +4108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (41)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &8844987400673524556 stripped
@@ -4007,6 +4207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -4103,6 +4308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (30)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &564697297618246205 stripped
@@ -4197,6 +4407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -4293,6 +4508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (50)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &602789660448688180 stripped
@@ -4387,6 +4607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -4483,6 +4708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (29)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &1273455773312589782 stripped
@@ -4577,6 +4807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -4673,6 +4908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (46)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &1322031047766275949 stripped
@@ -4767,6 +5007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -4863,6 +5108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (26)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &2771115883339551299 stripped
@@ -4957,6 +5207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -5053,6 +5308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (20)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &2308842402132444502 stripped
@@ -5147,6 +5407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
@@ -5243,6 +5508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (28)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}
 --- !u!4 &3113313973332665125 stripped
@@ -5337,6 +5607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3.Glowworm1.smooth (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 404a32476c8874b44a93d2195b812c8a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404a32476c8874b44a93d2195b812c8a, type: 3}

@@ -62,6 +62,7 @@ public class CavePlacement : MonoBehaviour
 
     private void OnEnable()
     {
+
         InstantiatePrefabs();
 
         planeTransform = transform.parent;

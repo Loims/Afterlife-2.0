@@ -152,10 +152,12 @@ public class PlayerFollowTarget : MonoBehaviour
 
     private void UpdateVisual()
     {
+
         playerState = movementComp.playerState;
 
-        switch(playerState)
+        switch (playerState)
         {
+                // Whale Stage
             case PlayerMovement.State.WHALE:
                 whaleVisual.SetActive(true);
                 planeVisual.SetActive(false);
@@ -168,8 +170,11 @@ public class PlayerFollowTarget : MonoBehaviour
                 endLightOcean.SetActive(true);
                 endLightSky.SetActive(false);
                 endLightCave.SetActive(false);
+
+
                 break;
 
+                // Plane Stage
             case PlayerMovement.State.PLANE:
                 whaleVisual.SetActive(false);
                 planeVisual.SetActive(true);
@@ -184,6 +189,7 @@ public class PlayerFollowTarget : MonoBehaviour
                 endLightCave.SetActive(false);
                 break;
 
+                // Flare Stage
             case PlayerMovement.State.FLARE:
                 whaleVisual.SetActive(false);
                 planeVisual.SetActive(false);

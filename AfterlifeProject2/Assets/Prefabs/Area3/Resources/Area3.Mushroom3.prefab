@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6541999672264001614
 Transform:
@@ -103,6 +103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3_Fungi1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766697303484881290, guid: 5c23f9eb3ef3a41cb9a1589ee6efe706,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c23f9eb3ef3a41cb9a1589ee6efe706, type: 3}
@@ -194,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3_Fungi1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3766697303484881290, guid: 5c23f9eb3ef3a41cb9a1589ee6efe706,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c23f9eb3ef3a41cb9a1589ee6efe706, type: 3}
 --- !u!4 &1422019438091331271 stripped
@@ -283,6 +293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3_Fungi2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033967243432947368, guid: 94ff0eb37169a413895ff00b79fa5a50,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ff0eb37169a413895ff00b79fa5a50, type: 3}
@@ -374,6 +389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3_Fungi2
       objectReference: {fileID: 0}
+    - target: {fileID: 8033967243432947368, guid: 94ff0eb37169a413895ff00b79fa5a50,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ff0eb37169a413895ff00b79fa5a50, type: 3}
 --- !u!4 &8957182477817788263 stripped
@@ -463,6 +483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3_Fungi2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033967243432947368, guid: 94ff0eb37169a413895ff00b79fa5a50,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ff0eb37169a413895ff00b79fa5a50, type: 3}
@@ -554,6 +579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area3_Fungi2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8033967243432947368, guid: 94ff0eb37169a413895ff00b79fa5a50,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ff0eb37169a413895ff00b79fa5a50, type: 3}
 --- !u!4 &1900859054588548613 stripped
@@ -643,6 +673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Area3_Fungi2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033967243432947368, guid: 94ff0eb37169a413895ff00b79fa5a50,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ff0eb37169a413895ff00b79fa5a50, type: 3}

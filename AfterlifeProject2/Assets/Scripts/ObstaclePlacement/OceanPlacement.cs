@@ -41,6 +41,7 @@ public class OceanPlacement : MonoBehaviour
     /// </summary>
     private void OnEnable()
     {
+
         InstantiatePrefabs();
 
         planeTransform = transform.parent;
@@ -55,6 +56,7 @@ public class OceanPlacement : MonoBehaviour
     /// </summary>
     private void Start()
     {
+
         oceanParent = GameObject.Find("OceanObjects");
         pooler = ObjectPooler.instance;
         if (oceanFloor != null)
