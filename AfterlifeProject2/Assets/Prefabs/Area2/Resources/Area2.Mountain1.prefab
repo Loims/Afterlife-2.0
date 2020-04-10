@@ -63,7 +63,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5947544545452872654}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -103,7 +103,7 @@ MeshCollider:
   m_GameObject: {fileID: 5947544545452872654}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -237,7 +237,12 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f9ba940c1e89c42ac8ca287feaf26638,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2089119547682105496, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
@@ -247,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 2089119547682105496, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4062714675420972065, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
@@ -257,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 4062714675420972065, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5313751440621565981, guid: f9ba940c1e89c42ac8ca287feaf26638,
         type: 3}
