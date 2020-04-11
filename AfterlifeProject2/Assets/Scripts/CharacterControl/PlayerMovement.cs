@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnEnable()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         if (playerState == State.NULL)
         {
             ChangeStateData();

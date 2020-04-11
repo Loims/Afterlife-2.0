@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AnimationTestScene.unity
-    guid: b036c545c3efe5f4ab290a768548067e
+    path: Assets/Scenes/MainMenu_Scene.unity
+    guid: aacc910f075f12041966ef5ff30112aa
   - enabled: 1
     path: Assets/Scenes/Gameplay_Scene.unity
     guid: 23ec60fb2952af1428325d7df89d32c9
   - enabled: 1
-    path: Assets/Scenes/LiamTestScene.unity
-    guid: 9f62c55dd98307343951411271014dbc
-  - enabled: 1
     path: Assets/Scenes/EndGame_Scene.unity
     guid: 214b8d2a105f0c447adca565f1b53097
+  - enabled: 0
+    path: Assets/Scenes/AnimationTestScene.unity
+    guid: b036c545c3efe5f4ab290a768548067e
+  - enabled: 0
+    path: Assets/Scenes/LiamTestScene.unity
+    guid: 9f62c55dd98307343951411271014dbc
   m_configObjects: {}

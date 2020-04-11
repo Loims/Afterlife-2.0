@@ -143,13 +143,13 @@ public class GameManager : MonoBehaviour
     {
         whiteFadeStart = true;
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
     private IEnumerator GameLoss(float waitTime)
     {
         //Put explosion particle here
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 }
